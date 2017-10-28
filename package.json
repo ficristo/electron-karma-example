@@ -1,0 +1,25 @@
+{
+  "name": "electron-karma-example",
+  "version": "1.0.0",
+  "description": "An example to test an electron app",
+  "main": "src/index.js",
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/ficristo/electron-karma-example",
+  "repository": "https://github.com/ficristo/electron-karma-example",
+  "scripts": {
+    "start": "electron .",
+    "test": "karma start --single-run"
+  },
+  "dependencies": {
+    "electron": "^1.7.9",
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-electron": "^5.2.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0"
+  }
+}
